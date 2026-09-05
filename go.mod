@@ -1,16 +1,17 @@
 module github.com/albertollamaso/nomad-plugin
 
-go 1.20
+go 1.26
 
 require (
 	github.com/alecthomas/jsonschema v0.0.0-20220216202328-9eeeec9d044b
 	github.com/falcosecurity/plugin-sdk-go v0.7.4
-	github.com/hashicorp/nomad/api v0.0.0-20241025152138-6236f354a5e1
+	github.com/hashicorp/nomad/api v0.0.0-20260904223745-78e9d2aa0cc8
 )
 
 require (
-	github.com/gorilla/websocket v1.5.0 // indirect
-	github.com/hashicorp/cronexpr v1.1.2 // indirect
+	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/hashicorp/cronexpr v1.1.3 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
